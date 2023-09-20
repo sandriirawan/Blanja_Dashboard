@@ -10,7 +10,6 @@ function User() {
   const [loading, setLoading] = useState(true);
   const [searchCustommer, setSearchCustommer] = useState("");
   const [searchSeller, setSearchSeller] = useState("");
-
   const [perPage, setPerPage] = useState(4);
 
   useEffect(() => {
